@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import { CharacterItemLoading } from "../components";
 import PageTitle from "../components/PageTitle";
 import { useTranslation } from "react-i18next";
 import useSWR from "swr";
@@ -14,10 +15,11 @@ const AllCharacters = () => {
   return (
     <>
       <PageTitle title={t("title")} />
-      {!data && <Loading />}
-      {data && (
-        <div className="row row-cols-1 row-cols-md-3 g-4">
-          {data.map((character, index) => (
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        {!data &&
+          [...Array(6)].map((_, i) => <CharacterItemLoading key={i} />)}
+        {data &&
+          data.map((character, index) => (
             <Card
               character={character}
               useLabel={t("appearance_seasons")}

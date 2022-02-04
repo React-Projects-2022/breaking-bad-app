@@ -8,23 +8,23 @@ exports[`Pruebas en Layout Debe de mostrar <Layout /> correctamente 1`] = `
   >
     <Routes>
       <Route
-        element={<Home />}
+        element={<Loadable />}
         path="/breaking-bad-app"
       />
       <Route
-        element={<AllCharacters />}
+        element={<Loadable />}
         path="/breaking-bad-app/all-characters"
       />
       <Route
-        element={<Episodes />}
+        element={<Loadable />}
         path="/breaking-bad-app/episodes"
       />
       <Route
-        element={<Details />}
+        element={<Loadable />}
         path="/breaking-bad-app/details/:id"
       />
       <Route
-        element={<PrincipalCharsVotes />}
+        element={<Loadable />}
         path="/breaking-bad-app/votes"
       />
     </Routes>

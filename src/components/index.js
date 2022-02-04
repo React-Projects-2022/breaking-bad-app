@@ -1,11 +1,13 @@
-import Loading from "../components/Loading";
-import BarChart from "../components/BarChart";
-import Button from "../components/Button";
-import PageTitle from "../components/PageTitle";
+import Loading from "./Loading";
+import BarChart from "./BarChart";
+import Button from "./Button";
+import PageTitle from "./PageTitle";
+import CharacterItemLoading from "./CharacterItemLoading"
 
 export {
     Loading,
     BarChart,
     Button,
-    PageTitle
+    PageTitle,
+    CharacterItemLoading
 }
