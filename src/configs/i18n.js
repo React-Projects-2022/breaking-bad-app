@@ -1,7 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import Cache from 'i18next-localstorage-cache';
-import backend from "i18next-xhr-backend";
 import { EN_I18N } from "../i18n/en";
 import { ES_I18N } from "../i18n/es";
 import { EU_I18N } from "../i18n/eu";
@@ -15,8 +14,6 @@ if (storageLanguage && allowedLanguages.indexOf(storageLanguage) > -1) {
 }
 
 i18n
-
-  .use(backend)
   .use(Cache)
   // detect user language
   // learn more: https://github.com/i18next/i18next-browser-languageDetector
