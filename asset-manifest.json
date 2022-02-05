@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/breaking-bad-app/static/css/main.e9685088.css",
-    "main.js": "/breaking-bad-app/static/js/main.d84389af.js",
+    "main.js": "/breaking-bad-app/static/js/main.fbc9e053.js",
     "static/css/398.bf0ed1ba.chunk.css": "/breaking-bad-app/static/css/398.bf0ed1ba.chunk.css",
     "static/js/398.39e76616.chunk.js": "/breaking-bad-app/static/js/398.39e76616.chunk.js",
     "static/css/671.74445d78.chunk.css": "/breaking-bad-app/static/css/671.74445d78.chunk.css",
@@ -12,14 +12,14 @@
     "static/css/145.74445d78.chunk.css": "/breaking-bad-app/static/css/145.74445d78.chunk.css",
     "static/js/145.a939cbff.chunk.js": "/breaking-bad-app/static/js/145.a939cbff.chunk.js",
     "static/css/266.74445d78.chunk.css": "/breaking-bad-app/static/css/266.74445d78.chunk.css",
-    "static/js/266.eecc782d.chunk.js": "/breaking-bad-app/static/js/266.eecc782d.chunk.js",
+    "static/js/266.f1e5e6cf.chunk.js": "/breaking-bad-app/static/js/266.f1e5e6cf.chunk.js",
     "static/js/174.5eb5f211.chunk.js": "/breaking-bad-app/static/js/174.5eb5f211.chunk.js",
     "static/js/212.b915c98c.chunk.js": "/breaking-bad-app/static/js/212.b915c98c.chunk.js",
     "static/js/193.404e725c.chunk.js": "/breaking-bad-app/static/js/193.404e725c.chunk.js",
     "static/js/137.bdffbe38.chunk.js": "/breaking-bad-app/static/js/137.bdffbe38.chunk.js",
     "index.html": "/breaking-bad-app/index.html",
     "main.e9685088.css.map": "/breaking-bad-app/static/css/main.e9685088.css.map",
-    "main.d84389af.js.map": "/breaking-bad-app/static/js/main.d84389af.js.map",
+    "main.fbc9e053.js.map": "/breaking-bad-app/static/js/main.fbc9e053.js.map",
     "398.bf0ed1ba.chunk.css.map": "/breaking-bad-app/static/css/398.bf0ed1ba.chunk.css.map",
     "398.39e76616.chunk.js.map": "/breaking-bad-app/static/js/398.39e76616.chunk.js.map",
     "671.74445d78.chunk.css.map": "/breaking-bad-app/static/css/671.74445d78.chunk.css.map",
@@ -30,7 +30,7 @@
     "145.74445d78.chunk.css.map": "/breaking-bad-app/static/css/145.74445d78.chunk.css.map",
     "145.a939cbff.chunk.js.map": "/breaking-bad-app/static/js/145.a939cbff.chunk.js.map",
     "266.74445d78.chunk.css.map": "/breaking-bad-app/static/css/266.74445d78.chunk.css.map",
-    "266.eecc782d.chunk.js.map": "/breaking-bad-app/static/js/266.eecc782d.chunk.js.map",
+    "266.f1e5e6cf.chunk.js.map": "/breaking-bad-app/static/js/266.f1e5e6cf.chunk.js.map",
     "174.5eb5f211.chunk.js.map": "/breaking-bad-app/static/js/174.5eb5f211.chunk.js.map",
     "212.b915c98c.chunk.js.map": "/breaking-bad-app/static/js/212.b915c98c.chunk.js.map",
     "193.404e725c.chunk.js.map": "/breaking-bad-app/static/js/193.404e725c.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.e9685088.css",
-    "static/js/main.d84389af.js"
+    "static/js/main.fbc9e053.js"
   ]
 }
