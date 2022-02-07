@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Button } from ".";
+import ImageRenderer from "./ImageRenderer";
 import { openExternalURL } from "../helpers/navigate";
 const Card = ({ character, useLabel = "Más" }) => {
   const goToMoreDetails = (url) => openExternalURL(url);
@@ -7,10 +8,13 @@ const Card = ({ character, useLabel = "Más" }) => {
     <div className="col" key={character.char_id}>
       <div className="card">
         <div className="image-section">
-          <img
-            src={character.img}
-            className="card-img-top"
-            alt={character.name}
+          <ImageRenderer
+            url={character.img}
+            thumb={character.img}
+            width={600}
+            height={470}
+            customClass={"card-img-top"}
+            title={character.name}
           />
           <span className="bottom-left">{character.portrayed}</span>
         </div>
