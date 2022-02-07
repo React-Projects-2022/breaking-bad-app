@@ -10,10 +10,13 @@ exports[`Pruebas de <Card /> en 'Principal Characters' Debe de mostrar <Button /
     <div
       className="image-section"
     >
-      <img
-        alt="Walter White"
-        className="card-img-top"
-        src="https://raw.githubusercontent.com/graphql-course/5-breaking-bad-graphql-voting/master/photos/BB-S5B-Walt-590.jpg"
+      <ImageRenderer
+        customClass="card-img-top"
+        height={470}
+        thumb="https://raw.githubusercontent.com/graphql-course/5-breaking-bad-graphql-voting/master/photos/BB-S5B-Walt-590.jpg"
+        title="Walter White"
+        url="https://raw.githubusercontent.com/graphql-course/5-breaking-bad-graphql-voting/master/photos/BB-S5B-Walt-590.jpg"
+        width={600}
       />
       <span
         className="bottom-left"

@@ -29,10 +29,10 @@ describe("Pruebas de <Card /> en 'All Characters'", () => {
   });
 
   test("Comprobar que las propiedades de imagen correctas", () => {
-    const imageProps = wrapper.find("img").props();
-    expect(imageProps.src).toBe(character.img);
-    expect(imageProps.alt).toBe(character.name);
-    expect(imageProps.className).toBe("card-img-top");
+    const imageProps = wrapper.find("ImageRenderer").props();
+    expect(imageProps.url).toBe(character.img);
+    expect(imageProps.title).toBe(character.name);
+    expect(imageProps.customClass).toBe("card-img-top");
   });
 
   test("Comprobar que texto del nombre de personaje es correcto", () => {

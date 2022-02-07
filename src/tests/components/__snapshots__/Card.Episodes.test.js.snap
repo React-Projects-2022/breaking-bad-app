@@ -11,10 +11,13 @@ exports[`Pruebas de <Card /> en 'All Characters' Debe de mostrar <Button /> corr
     <div
       className="image-section"
     >
-      <img
-        alt="Skyler White"
-        className="card-img-top"
-        src="https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg"
+      <ImageRenderer
+        customClass="card-img-top"
+        height={470}
+        thumb="https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg"
+        title="Skyler White"
+        url="https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg"
+        width={600}
       />
       <span
         className="bottom-left"
